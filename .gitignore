@@ -1,0 +1,245 @@
+# ===========================
+# DEPENDENCIAS Y MÓDULOS
+# ===========================
+node_modules/
+npm-debug.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# ===========================
+# ENTORNO
+# ===========================
+.env
+.env.local
+.env.*.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.example
+
+# ===========================
+# PYTHON
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+venv/
+ENV/
+env/
+.venv
+
+# ===========================
+# IDE Y EDITORES
+# ===========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+*.iml
+.gradle
+.classpath
+
+# ===========================
+# COMPILACIÓN Y BUILD
+# ===========================
+dist/
+build/
+.next/
+.nuxt/
+out/
+.cache/
+.vuepress/dist/
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+.output/
+.vercel
+.netlify
+
+# ===========================
+# TESTING
+# ===========================
+coverage/
+.nyc_output/
+*.lcov
+test-results/
+.coverage
+htmlcov/
+
+# ===========================
+# LOGS
+# ===========================
+logs/
+*.log
+lerna-debug.log*
+
+# ===========================
+# SISTEMA OPERATIVO
+# ===========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.desktop
+
+# ===========================
+# BASES DE DATOS
+# ===========================
+*.db
+*.sqlite
+*.sqlite3
+*.sql
+.mongo/
+mongodb/
+
+# ===========================
+# CARPETAS TEMPORALES
+# ===========================
+tmp/
+temp/
+.tmp/
+*.tmp
+.cache/
+
+# ===========================
+# UPLOADS Y ARCHIVOS GENERADOS
+# ===========================
+uploads/
+downloads/
+public/uploads/
+static/uploads/
+media/
+
+# ===========================
+# SECRETOS Y CREDENCIALES
+# ===========================
+secrets/
+.aws/
+.ssh/
+*.pem
+*.key
+*.crt
+
+# ===========================
+# HERRAMIENTAS Y DEPENDENCIAS ESPECÍFICAS
+# ===========================
+# Webpack
+dist/
+build/
+
+# Next.js
+.next/
+out/
+.vercel
+
+# Nuxt
+.nuxt/
+dist/
+
+# Vuepress
+.vuepress/dist/
+
+# Gatsby
+.cache/
+public/
+
+# tsdx
+dist/
+build/
+
+# Storybook
+storybook-static/
+
+# Docker
+docker-compose.override.yml
+
+# ===========================
+# VS CODE
+# ===========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# ===========================
+# JETBRAINS
+# ===========================
+.idea/
+.idea_modules/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ===========================
+# MACOS
+# ===========================
+.AppleDouble
+.LSOverride
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.Icon
+.Icon?
+.Icon\r
+
+# ===========================
+# WINDOWS
+# ===========================
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# ===========================
+# LINUX
+# ===========================
+*~
+.directory
+
+# ===========================
+# PROYECTO ESPECÍFICO
+# ===========================
+# Añade líneas específicas de tu proyecto aquí:
+# /path/to/specific/folder/
+# *.specific-extension
